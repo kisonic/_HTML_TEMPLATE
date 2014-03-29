@@ -139,7 +139,7 @@ textarea { overflow:auto; vertical-align:top; }
 .upper { text-transform:uppercase; }
 .lower { text-transform:lowercase; }
 
-.small { font-size:0.9em; }
+.small { font-size:0.8em; }
 .smaller { font-size:0.7em; }
 .smallest { font-size:0.5em; }
 .big { font-size:1.2em; }

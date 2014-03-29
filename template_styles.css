@@ -8,7 +8,7 @@ a {
 a:hover {
 	
 }
-p {
+p, .paragraph {
 	
 }
 h1, h2, h3, h4, h5, h6 {
@@ -52,7 +52,11 @@ h6 {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-
+	font-family: inherit;
+	font-size: inherit;
+	display: inline-block;
+	outline: none;
+	
 }
 .main_wrap input[type='date'],
 .main_wrap input[type='datetime'],
@@ -78,6 +82,10 @@ h6 {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	font-family: inherit;
+	font-size: inherit;
+	display: inline-block;
+	outline: none;
 	
 }
 .main_wrap input[type='button']:hover,
