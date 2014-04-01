@@ -49,6 +49,8 @@ h6 {
 .main_wrap input[type='number'],
 .main_wrap textarea,
 .main_wrap select {
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -79,6 +81,8 @@ h6 {
 .main_wrap input[type='submit'],
 .main_wrap button,
 .main_wrap .button {
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
