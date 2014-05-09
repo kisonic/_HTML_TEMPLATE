@@ -1,33 +1,33 @@
 .container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 960px;
 }
 .container:before, .container:after {
-  content: " ";
-  display: table;
+	content: " ";
+	display: table;
 }
 .container:after { clear: both; }
 .row {
-  margin-left: -10px;
-  margin-right: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
 }
 .row:before, .row:after {
-  content: " ";
-  display: table;
+	content: " ";
+	display: table;
 }
 .row:after { clear: both; }
 .col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12 {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  position: relative;
-  min-height: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
-  float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+	min-height: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
 }
 .col_12 { width: 100%; }
 .col_11 { width: 91.66666666666666%; }
