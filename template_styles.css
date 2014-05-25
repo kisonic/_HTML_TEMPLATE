@@ -126,7 +126,7 @@ h6 {
 	text-align:center;
 	display: none;
 	white-space: nowrap;
-	background-color:rgba(0,0,0,0.7);	/* изменить в соответствии с дизайном */
+	background-color:rgba(0,0,0,0.7);		/* изменить в соответствии с дизайном */
 }
 .popup_window_wrap:target {
 	display: block;
@@ -139,15 +139,15 @@ h6 {
 	overflow:auto;
 	text-align:left;
 	z-index:2;
-	max-height:100%;					/* изменить в соответствии с дизайном */
-	width: 100%;						/* изменить в соответствии с дизайном */
-	background-color:#fff;				/* изменить в соответствии с дизайном */
-	max-width:1000px;					/* изменить в соответствии с дизайном */
+	max-height:100%;		/* изменить в соответствии с дизайном */
+	width: 100%;		/* изменить в соответствии с дизайном */
+	background-color:#fff;		/* изменить в соответствии с дизайном */
+	max-width:1000px;		/* изменить в соответствии с дизайном */
 }
 .popup_window > div {
 	position: relative;
-	min-width:960px;					/* изменить в соответствии с дизайном */
-	padding: 20px;						/* изменить в соответствии с дизайном */
+	min-width:960px;		/* изменить в соответствии с дизайном */
+	padding: 20px;		/* изменить в соответствии с дизайном */
 }
 .close_popup_window {
 	position: absolute;
@@ -158,14 +158,14 @@ h6 {
 	cursor: pointer;
 	z-index: 2;
 	text-decoration: none;
-	font-style: 1em;					/* изменить в соответствии с дизайном */
-	width: 2em;							/* изменить в соответствии с дизайном */
-	height: 2em;						/* изменить в соответствии с дизайном */
-	line-height: 2;						/* изменить в соответствии с дизайном */
-	color: #000;						/* изменить в соответствии с дизайном */
+	font-style: 1em;		/* изменить в соответствии с дизайном */
+	width: 2em;		/* изменить в соответствии с дизайном */
+	height: 2em;		/* изменить в соответствии с дизайном */
+	line-height: 2;		/* изменить в соответствии с дизайном */
+	color: #000;		/* изменить в соответствии с дизайном */
 }
 .close_popup_window:after {
-	content: "\f00d";					/* символ крестика, изменить в соответствии с дизайном */
+	content: "\f00d";		/* символ крестика, изменить в соответствии с дизайном */
 	display: inline-block;
 	font-family: FontAwesome;
 	font-style: normal;
